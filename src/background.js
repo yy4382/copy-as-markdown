@@ -436,6 +436,9 @@ browser.commands.onCommand.addListener(async (command, argTab) => {
       case 'current-tab-link':
         text = await handleExportTab('link', tab);
         break;
+      case 'current-tab-only-url':
+        text = tab.url;
+        break;
       case 'all-tabs-link-as-list':
         text = await handleExportTabs('all', 'link', 'list', tab.windowId);
         break;

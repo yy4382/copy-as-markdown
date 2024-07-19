@@ -39,6 +39,9 @@
     "current-tab-link": {
       "description": "current tab: [title](url)"
     },
+    "current-tab-only-url": {
+      "description": "current tab: url"
+    },
     "all-tabs-link-as-list": {
       "description": "all tabs: - [title](url)"
     },
